@@ -1,0 +1,10 @@
+
+<div class="img-slider">
+  <div class="u-flex">
+    <div class="slider-button" ng-click="$ctrl.prev()"> << </div>
+    <div class="slide" ng-repeat="image in $ctrl.images"         ng-show="image.display">
+    <img ng-src="{{image.src}}" />
+  </div>
+    <div class= slider-button ng-click="$ctrl.next()"> >> </div>
+  </div>
+</div>

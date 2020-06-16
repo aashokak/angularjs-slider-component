@@ -1,0 +1,26 @@
+
+
+.img-slider {
+    text-align:center;
+    width: 415px;
+    height: 200px;
+    border: 2px groove;
+}
+
+.slide img {
+    height:200px;
+    width: 280px;
+    padding: 0 10px;
+}
+
+.slider-button {
+  margin: 0 15px;
+  width: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.u-flex{
+  display: flex;
+  align-items: center;
+}
